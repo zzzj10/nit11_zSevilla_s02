@@ -66,3 +66,32 @@ These commands will allow us to have git recognize the person trying to push int
      - configure the email used to push into the remote repo
      -git config user.email
      -to verify the configure email
+
+
+
+
+     Steps:
+
+     -new file
+
+     -git status
+
+     (fatal....)
+
+     - git init
+
+     - git status
+
+     - git add .
+
+     - git status
+
+
+     - git commit -m "Initial commit"
+
+     Existing File
+
+     - git status
+     - git add .
+     - git status
+     - git commit -m"<commitMessages>"
