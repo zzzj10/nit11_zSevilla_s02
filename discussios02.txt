@@ -1,0 +1,34 @@
+Git VCS
+    - Git VCS is an open source version control system. It allows us to track and update our files with only the change made to it
+
+
+    Local Repositories 
+    - Folder that use git technology. Therefore, it allows us to track changes made in the files with the folder, these changes can then be uploaded and update the files in our remote repo|
+
+
+    Remote Repositories 
+    - (Github or Gitlab)
+    - These are folder that use git technology but instead located
+
+
+    SSH key
+    - Secure Shell key are tools we use to authenticate the uploading or of other task when manipulating or using git repositories.
+    - it allows us to push/upload changes to our repos without the needs of passwords
+
+    To Create SSH key 
+
+   - terminal/Gitbash
+   -ssh-keygen
+   -is a command-line utility that is used to generate, manage and SSH keys
+
+   -randomart image
+   -visual representation of an SSH key's fingerprint. It is created by the 'ssh-keygen' command when generating an SSH key
+
+   Git commands
+   -git status
+      - it allows us to display files that are ready to be added and then commited 
+      -let us see the current state of your local repo
+      -git init
+      - used to create a new empty git repo
+      -git directory in the current directory. This directory contains all the necessary files and directories that git needs to manage
+
