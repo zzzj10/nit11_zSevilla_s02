@@ -32,3 +32,37 @@ Git VCS
       - used to create a new empty git repo
       -git directory in the current directory. This directory contains all the necessary files and directories that git needs to manage
 
+- git add .
+-it adds all modified and untracked files in the current directory and its subdirectories to the staging areas
+
+-staging area
+- it is a temporary storage area where you can gather or review changes before you commit them to your repo
+
+git commit -m "<yourCommitMessage>"
+
+-is used to create a new commit in your git repo.
+-commit
+-is a snapshot of your repo at a particular poin in time and includes all the changes that you have made
+
+-m
+
+- an attributes to include/add commit message directly in command line
+
+
+-
+Git config
+These commands will allow us to have git recognize the person trying to push into online/remote repo:
+     
+     - git config --global user.name
+     "userNameUsedInGitHub"
+
+     -configure the name used to push into the remote repo
+     - git config user.name
+     - to verify the configure name
+
+
+     git config --global user.email
+     "emailUserIdInGitHub"
+     - configure the email used to push into the remote repo
+     -git config user.email
+     -to verify the configure email
