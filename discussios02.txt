@@ -48,9 +48,18 @@ git commit -m "<yourCommitMessage>"
 
 - an attributes to include/add commit message directly in command line
 
+-git log 
 
--
-Git config
+-used to display the commit history of a git repo
+
+- option:
+
+> --online
+> --graph
+> -n
+>--author
+
+- Git config
 These commands will allow us to have git recognize the person trying to push into online/remote repo:
      
      - git config --global user.name
